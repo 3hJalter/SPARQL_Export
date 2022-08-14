@@ -1,0 +1,51 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dbr:Bánh_canh  rdfs:comment  "Bánh canh (Vietnamese: [ɓaɲ kaɲ]; Khmer: បាញ់កាញ់, bănh kănh [ɓaɲ kaɲ]) are a thick Vietnamese noodles that can be made from tapioca flour or a mixture of rice and tapioca flour. \"Cake\" refers to the thick sheet of uncooked dough from which the noodles are cut. The Vietnamese word bánh refers to items such as noodles or cakes that are made from flour, and canh means \"soup.\""@en ;
+        rdfs:label          "Bánh canh"@en ;
+        dbo:ingredient      dbr:Rice , dbr:Tapioca ;
+        dbp:mainIngredient  "Tapioca flour, optionally rice flour"@en ;
+        dbp:region          dbr:Southeast_Asia ;
+        dbp:type            dbr:Soup .
+
+dbr:Bún_ốc  rdfs:comment    "Bún ốc (\"snail vermicelli soup\") is a Vietnamese dish originating from Hanoi, Vietnam. Roasted or boiled snails (ốc luộc), may be eaten first as an appetizer. Snail congee is called cháo ốc, and canh ốc chuối đậu, is a thin snail soup with green banana, fried tofu and tía tô."@en ;
+        rdfs:label          "Bún ốc"@en ;
+        dbp:mainIngredient  "Roasted snails, soup"@en ;
+        dbp:region          dbr:Hanoi ;
+        dbp:type            dbr:Noodle_soup .
+
+dbr:Bún_bò_Huế  rdfs:comment  "Bún bò Huế (pronounced [ɓun˧˥ ɓɔ˧˩ hwe˧˥]) or bún bò (English: /buːn bɔː/) is a popular Vietnamese rice noodle (bún) dish with sliced beef (bò), chả lụa, and sometimes pork knuckles. The dish originates from Huế, a city in central Vietnam associated with the cooking style of the former royal court. The dish has a mix of spicy, salty, and umami flavors. The predominant flavor is that of lemongrass. Compared to phở or bún riêu, the noodles are thicker and cylindrical."@en ;
+        rdfs:label          "Bún bò Huế"@en ;
+        dbo:ingredient      dbr:Pig_blood_curd , dbr:Beef , dbr:Ham_hock , dbr:Rice_vermicelli , dbr:Cymbopogon ;
+        dbp:mainIngredient  "Rice vermicelli, lemongrass, beef, fermented shrimp sauce, pork knuckles, pig blood curds"@en ;
+        dbp:region          "Central Vietnam"@en ;
+        dbp:type            dbr:Soup .
+
+dbr:Canh_chua  rdfs:comment  "Canh chua (Vietnamese: [kaiŋ cuə], sour soup, chữ nôm:羹䣷) or cá nấu (\"cooked fish\", chữ nôm:𩵜𤋷) is a Vietnamese sour soup indigenous to the Mekong Delta region of Southern Vietnam. It is typically made with fish from the Mekong River Delta, pineapple, tomatoes (and sometimes also other vegetables such as đậu bắp or dọc mùng), and bean sprouts, in a tamarind-flavored broth. It is garnished with the lemony-scented herb ngò ôm (Limnophila aromatica), caramelized garlic, and chopped scallions, as well as other herbs, according to the specific variety of canh chua; these other herbs may include rau răm (Vietnamese coriander), ngò gai (long coriander), and rau quế (Thai basil). It can be served alone, with white rice, or with rice vermicelli. Variations can include prawns, squid, spare ribs, f"@en ;
+        rdfs:label          "Canh chua"@en ;
+        dbo:ingredient      dbr:Pineapple , dbr:Sprouting , dbr:Tomato , dbr:Fish , dbr:Tamarind ;
+        dbp:mainIngredient  "Fish, pineapple, tomatoes, sometimes other vegetables, bean sprouts, tamarind-flavored broth"@en ;
+        dbp:region          dbr:Mekong_Delta ;
+        dbp:type            dbr:Soup .
+
+dbr:Chè_bà_ba  rdfs:comment  "Chè bà ba is a Vietnamese dessert with a coconut milk soup base and square pieces of taro, cassava and khoai lang bí, a kind of long sweet potato with red skin and yellow flesh. The dish commonly includes pieces of tapioca, and the dish is typically eaten warm, but can also be eaten cold."@en ;
+        rdfs:label          "Chè bà ba"@en ;
+        dbo:ingredient      dbr:Coconut_milk , dbr:Taro , dbr:Tapioca , dbr:Sweet_potato , dbr:Cassava ;
+        dbp:mainIngredient  "Coconut milk, taro, cassava, khoai lang bí , tapioca"@en ;
+        dbp:type            dbr:Soup .
+
+dbr:Bún_riêu  rdfs:comment  "Bún riêu is a traditional Vietnamese soup of clear stock and rice vermicelli. There are several varieties of bún riêu, including bún riêu cua (minced crab), bún riêu cá (fish) and bún riêu ốc (snail). Bún riêu cua is served with tomato broth and topped with minced freshwater crab. In this dish, various freshwater paddy crabs are used, including the brown paddy crab found in rice paddies in Vietnam. The crabs are cleaned to remove dirt and sand. Then crabs are pounded together with the shell on into a fine paste. This paste is strained and the crab liquid is a base for the soup along with tomato. The crab residue is used as the basis for crab cakes. Other ingredients for this dish include tamarind paste, fried tofu, or (kinds of rice vinegar), Garcinia multiflora Champ., annatto seeds (hạ"@en ;
+        rdfs:label          "Bún riêu"@en ;
+        dbo:ingredient      dbr:Tomato , dbr:Meat , dbr:Rice_vermicelli , dbr:Shrimp_paste ;
+        dbp:mainIngredient  dbr:Tomato , dbr:Meat , dbr:Shrimp_paste , dbr:Rice_vermicelli ;
+        dbp:region          dbr:Southeast_Asia ;
+        dbp:type            dbr:Soup .
+
+dbr:Pho  rdfs:comment       "Phở or pho (UK: /fɜː/, US: /fʌ/, Canada: /fɑː/; Vietnamese: [fəː˧˩˧]) is a Vietnamese soup dish consisting of broth, rice noodles (bánh phở), herbs, and meat (usually beef Beef (phở bò), sometimes chicken (phở gà)). Pho is a popular food in Vietnam where it is served in households, street stalls and restaurants countrywide. Pho is considered Vietnam's national dish."@en ;
+        rdfs:label          "Pho"@en ;
+        dbo:ingredient      dbr:Rice_noodles , dbr:Beef , dbr:Chicken_as_food ;
+        dbp:mainIngredient  "Rice noodles and beef or chicken"@en ;
+        dbp:region          "Hanoi or Nam Định"@en ;
+        dbp:type            dbr:Noodle_soup .
